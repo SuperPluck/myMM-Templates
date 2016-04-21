@@ -1,0 +1,201 @@
+{
+    "ApexClass": [{
+        "name": "Default",
+        "file_name": "ApexClass.cls",
+        "description": "The default template for an Apex Class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+        }, {
+        "name": "Batch",
+        "file_name": "BatchApexClass.cls",
+        "description": "Batch Apex Class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+        }, {
+        "name": "Controller Extension",
+        "file_name": "ControllerExtension.cls",
+        "description": "Controller extension Apex Class",
+        "author": "David Schach @dschach",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+        }, {
+        "name": "No Constructor",
+        "file_name": "ApexClassNoConstructor.cls",
+        "description": "The default template for an Apex Class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+    }, {
+        "name": "QueryUtils",
+        "file_name": "QueryUtils.cls",
+        "description": "Query helper class",
+        "author": "@superPluck",
+        "params": [{
+        }]
+    }, {
+        "name": "Schedulable",
+        "file_name": "SchedulableApexClass.cls",
+        "description": "A Schedulable class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+    }, {
+        "name": "Trigger Handler",
+        "file_name": "TriggerHandler.cls",
+        "description": "An Interface that handles Trigger actions",
+        "author": "@kevinohara80",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "TriggerHandler"
+        }]
+    }, {
+        "name": "TriggerHandler Extension",
+        "file_name": "TriggerHandlerExtension.cls",
+        "description": "Workable Classe that extends Trigger Handler",
+        "author": "@kevinohara80",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "AccountHandler"
+        }, {
+            "name": "object_name",
+            "description": "Object Api Name",
+            "default": "Custom__c"
+        }]
+    }, {
+        "name": "Unit Test",
+        "file_name": "UnitTestApexClass.cls",
+        "description": "Unit test class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+    }, {
+        "name": "Web Service",
+        "file_name": "WebserviceClass.cls",
+        "description": "Web service class",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+    }],
+    "ApexComponent": [{
+        "name": "Visualforce Component",
+        "file_name": "ApexComponent.component",
+        "description": "Basic Visualforce Component template",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Visualforce Component API Name",
+            "default": "MyVisualforceComponent"
+        }]
+    }],
+    "ApexPage": [{
+        "name": "Visualforce Page",
+        "file_name": "ApexPage.page",
+        "description": "Basic Visualforce Page template",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Visualforce Page API Name",
+            "default": "MyVisualforcePageName"
+        }]
+    }, {
+        "name": "Header and PageBlock",
+        "file_name": "HeaderPageBlock.page",
+        "description": "Visualforce Page with SectionHeader and PageBlock",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Visualforce Page API Name",
+            "default": "MyVisualforcePageName"
+        }]
+    }, {
+        "name": "Lightning Design System",
+        "file_name": "SLDSmock.page",
+        "description": "Visualforce Page ready to use SLDS",
+        "author": "@SuperPluck",
+        "params": [{
+            "name": "api_name",
+            "description": "Visualforce Page API Name",
+            "default": "MyVisualforcePageName"
+        }, {
+            "name": "static_resource",
+            "description": "Static resource with lds",
+            "default": "SLDSXXX"
+        }, {
+            "name": "page_title",
+            "description": "Page title",
+            "default": "MyVisualforcePageTitle"
+        }]
+    }],
+    "ApexTrigger": [{
+        "name": "Apex Trigger",
+        "file_name": "ApexTrigger.trigger",
+        "description": "Basic Apex Trigger template",
+        "author": "MavensMate",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Trigger API Name",
+            "default": "MyCoolTrigger"
+        }, {
+            "name": "object_name",
+            "description": "Object API Name",
+            "default": "Account"
+        }]
+    }, {
+        "name": "Apex Trigger - All Events",
+        "file_name": "ApexTriggerAllEvents.trigger",
+        "description": "Apex Trigger with all Trigger events",
+        "author": "@alexander-brett",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Trigger API Name",
+            "default": "MyCoolTrigger"
+        }, {
+            "name": "object_name",
+            "description": "Object API Name",
+            "default": "Account"
+        }]
+    }, {
+        "name": "Apex Trigger - With Pattern",
+        "file_name": "ApexTriggerWithPattern.trigger",
+        "description": "Apex Trigger that works with the Trigger Handler",
+        "author": "@kevinohara80",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Trigger API Name",
+            "default": "AccountTrigger"
+        }, {
+            "name": "object_name",
+            "description": "Object API Name",
+            "default": "Account"
+        }, {
+            "name": "class_name",
+            "description": "Handler Class Name",
+            "default": "AccountHandler"
+        }]
+    }]
+}
