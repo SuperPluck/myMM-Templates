@@ -84,7 +84,7 @@
         "name": "Unit Test",
         "file_name": "UnitTestApexClass.cls",
         "description": "Unit test class",
-        "author": "MavensMate",
+        "author": "@SuperPluck",
         "params": [{
             "name": "api_name",
             "description": "Apex Class API Name",

@@ -1,1 +1,1 @@
-This are my personal templates
+These are my personal templates
