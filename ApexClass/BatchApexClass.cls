@@ -1,4 +1,4 @@
-public class {{ api_name }} implements Database.Batchable<sObject> {
+public class {{ api_name }} implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.Stateful {
 	
 	String query;
 	
@@ -6,8 +6,8 @@ public class {{ api_name }} implements Database.Batchable<sObject> {
 		
 	}
 	
-	public Database.QueryLocator start(Database.BatchableContext BC) {
-		return Database.getQueryLocator(query);
+	public Iterable<SObject> start(Database.BatchableContext BC) {
+		return (Iterable<SObject>)Database.getQueryLocator(query);
 	}
 
    	public void execute(Database.BatchableContext BC, List<sObject> scope) {

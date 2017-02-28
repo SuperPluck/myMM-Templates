@@ -57,6 +57,16 @@
             "default": "MyApexClass"
         }]
     }, {
+        "name": "Schedulable Batch",
+        "file_name": "SchedulableBatch.cls",
+        "description": "A Schedulable Batch class",
+        "author": "@SuperPluck",
+        "params": [{
+            "name": "api_name",
+            "description": "Apex Class API Name",
+            "default": "MyApexClass"
+        }]
+    }, {
         "name": "Trigger Handler",
         "file_name": "TriggerHandler.cls",
         "description": "An Interface that handles Trigger actions",
