@@ -1,7 +1,7 @@
 public class {{ api_name }} implements Database.Batchable<SObject>, Schedulable{
 
-    public void schedule(Datetime date, String jobName) {
-        String sch = date.format('ss mm HH dd MM ? yyyy');
+    public void schedule(Datetime d, String jobName) {
+        String sch = d.format('ss mm HH dd MM ? yyyy');
         String jobID = System.schedule(jobName, sch, this);
     }
 
