@@ -10,7 +10,7 @@ public class {{ api_name }} implements Database.Batchable<SObject>, Schedulable{
     }
 
     public Iterable<SObject> start(Database.BatchableContext BC) {
-        return (Iterable<SObject>)Database.getQueryLocator(query);
+        return (Iterable<SObject>)Database.getQueryLocator('SELECT Id FROM Account');
     }
 
     public void execute(Database.BatchableContext BC, List<sObject> scope) {
